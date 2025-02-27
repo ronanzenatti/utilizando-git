@@ -1,3 +1,12 @@
+-> Configura o pc com nome e E-mail do responsavel pelo código
+git config --global user.name "Ronan Adriel Zenatti"
+git config --global user.email ronan.zenatti@fatec.sp.gov.br
+
+-> navegando no cmd
+cd nome-da-pasta      // entra em uma pasta
+cd ..                 // volta uma pasta
+cd /                  // vai para o c:
+
 -> Inicializa um repositório git (Utilizado apenas 1 vez)
 git init
 
@@ -10,7 +19,7 @@ git add .
 -> Salva uma versão dos arquivos
 git commit -m "Porque estou salvando???"
 
--> Envia os commits para o Github
+-> Envia os commits para o Github *
 git push
 
 -> Baixa a atualização dos arquivos do Github para uma pasta já existente
